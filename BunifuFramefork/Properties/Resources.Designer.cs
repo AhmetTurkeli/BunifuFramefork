@@ -83,6 +83,16 @@ namespace BunifuFramefork.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap darkblueclose {
+            get {
+                object obj = ResourceManager.GetObject("darkblueclose", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap path8118 {
             get {
                 object obj = ResourceManager.GetObject("path8118", resourceCulture);
@@ -96,6 +106,26 @@ namespace BunifuFramefork.Properties {
         internal static System.Drawing.Bitmap pattern_png_30769 {
             get {
                 object obj = ResourceManager.GetObject("pattern-png-30769", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap pattern_png_307691 {
+            get {
+                object obj = ResourceManager.GetObject("pattern-png-307691", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap whiteclose {
+            get {
+                object obj = ResourceManager.GetObject("whiteclose", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

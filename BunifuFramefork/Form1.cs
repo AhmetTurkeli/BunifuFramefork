@@ -17,10 +17,7 @@ namespace BunifuFramefork
             InitializeComponent();
         }
 
-        private void bunifuPictureBox3_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
+        
 
         bool move;
         int mouse_x;
@@ -44,5 +41,20 @@ namespace BunifuFramefork
 
             move = false;
         }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            Form2 Form2 = new Form2();
+            Form2.Show();
+            this.Hide();
+
+        }
+
+        private void bunifuPictureBox3_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+        //#5CB8FF açıkmavi
+        //#005477 koyumavi
     }
 }
